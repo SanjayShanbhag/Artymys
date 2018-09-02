@@ -2,6 +2,7 @@
 Writers Connect
 Artymys is my attempt at creating a full fledged social media website. This was back when I was first introduced to Web Application Development.
 Artymys boasts as many features as any other platform. Feed, follow, appluad/censure, comments, polls, and many more:
+
 Login/Signup
 
 A personal account is a must for any social medai platform isn't it?
