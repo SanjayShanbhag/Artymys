@@ -1,0 +1,114 @@
+.backBuffer{
+    background-image: url('../images/paper.png'); 
+    background-repeat: horizontal;
+}
+p{
+	color: #616161;
+	line-height: 30px;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999 !important;
+    -moz-box-shadow: 0 8px 6px -6px #999 !important;
+    box-shadow: 0 8px 6px -6px #999 !important;
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1A237E !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.bton{
+    background-color: #0D47A1;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 4px #000000;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.bton:hover{
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.bton1{
+    background-color: #1E88E5;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 4px #000000;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.bton1:hover{
+    color: #FAFAFA;
+    text-decoration: none;
+}
+#custom-search-input {
+                    margin:0;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding: 0;
+                }
+ 
+                #custom-search-input .search-query {
+                    padding-right: 3px;
+                    padding-right: 4px \9;
+                    padding-left: 3px;
+                    padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+                    margin-bottom: 0;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    border-radius: 3px;
+                }
+ 
+                #custom-search-input button {
+                    border: 0;
+                    background: none;
+        /** belows styles are working good */
+                    padding: 2px 5px;
+                    margin-top: 2px;
+                    position: relative;
+                    left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+                    margin-bottom: 0;
+                   -webkit-border-radius: 3px;
+                   -moz-border-radius: 3px;
+                   border-radius: 3px;
+                    color:#D9230F;
+                }
+                #search input[type=text]{width:430px !important;}
+                .footer{
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background:#ccc;
+                }
+                .left{
+                    float: left;
+                }
+                .right{
+                    float: right;
+                }
